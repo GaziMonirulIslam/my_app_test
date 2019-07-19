@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7e7e7e"
+    tools:context=".ProcessorTechnology.ProcessorSpecs">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#c97f00"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Specs(ClockSpeed)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#2e2e2e"
+                android:textStyle="normal"
+                android:text="Measured in gigahertz (GHz), this is the speed at which the chip operates, so higher is faster. Modern CPUs adjust their clock speeds up or down based on the task and their temperature so you'll see a base (minimum) clock speed and a turbo (maximum) speed listed."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#c97f00"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Core "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#2e2e2e"
+                android:textStyle="normal"
+                android:text="These are the processors within the processor. Modern CPUs have between two and 18 cores, with most processors containing four to eight. Each one is capable of handling its own tasks. Unless you're a bargain-hunter, you want at least four cores."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#c97f00"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Threads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#2e2e2e"
+                android:textStyle="normal"
+                android:text="This is the number of independent processes a chip can handle at once, which in theory would be the same as the number cores. However, many processors have multithreading capability, which allows a single core to create two threads. Intel calls this Hyper-Threading and AMD calls it SMT(Simultaneous Multithreading) More threads means better multitasking and enhanced performance on heavily-threaded apps such as video editors and transcoders."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#c97f00"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="TDP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#2e2e2e"
+                android:textStyle="normal"
+                android:text="The Thermal Design Profile/Power (TDP) is the maximum amount of heat that a chip generates, as measured in watts. By knowing that--for example--the Intel Core i7-8700K has a TDP of 95 watts, you can make sure you have a CPU cooler that can handle that amount of heat dissipation and also that your PSU can provide enough juice.\n\nIt's good to know what your TDP is so you can get the right cooling and power equipment to support your CPU. Also, a higher TDP usually coincides with faster performance."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#c97f00"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Cache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#2e2e2e"
+                android:textStyle="normal"
+                android:text="A processor's on-board cache is used to speed up access to data and instructions between your CPU and RAM. There are three types of cache: L1 is the fastest, but cramped, L2 roomier, but slower, and L3 spacious, but comparatively sluggish. When the data a CPU needs isn’t available in any of these places, it reaches for the RAM, which is much slower. The more cache the more the faster it gets."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#c97f00"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="IPC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#2e2e2e"
+                android:textStyle="normal"
+                android:text="Even if you have two CPUs that have the same clock speed and same number of threads, if they’re from different companies, or built on different architectures from the same company, they will produce different numbers of IPC (instructions per clock cycle). IPC is heavily dependent on the CPU's architecture, so chips from newer generations (ex: an 9th Gen Core i7 versus an 8th Gen Core i7) will be better than older ones.\n\n
+IPC is not usually listed as a spec and is usually measured through benchmark testing, so the best way to learn about it is to read reviews.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

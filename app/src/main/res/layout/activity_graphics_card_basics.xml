@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e15532"
+    tools:context=".GraphicsCardTechnology.GraphicsCardBasics">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="GPU BASICS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="Buying a Graphics Card is so complex as there are lots of choices to take from and specially there are two main platform Nvidia and AMD that build the core chips of graphics card. So, in this segment we will talk in brief about graphic card technologies you should know and then select which model is suited to you best according to your budget. "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="GO FOR LATEST"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="One very important tip when buying graphics card to buy the latest product as much as possible. Latest cards have newer generation memory type and features and architecture which helps to improve performance as well as power consumption."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="MATCH MONITOR RESOLUTION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="Many Cards are good enough to handle 1080p gaming at 30-60 fps but if you have high resolution display monitor like 4k or 2k then you need good graphics card to handle such resolution. For example, GTX 1060 can do gaming at 1080p smoothly but struggles at 4k so you need GTX 1080 or better Graphics card to get optimal performance."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="CONSIDER REFRESH RATE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="If your monitor has triple-digit refresh rates like 120 or 144Hz monitor, you’ll need a powerful card to show its full potential. Alternatively, if your monitor tops out at 60Hz and 1080p, there’s no point in paying extra for a powerful card that pushes pixels faster than your display can keep up with. So, before buying it consider your monitor refresh rate with your graphics card matching."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="POWER AND SPACE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="Make sure that your pc case has enough space to hold the card. There are triple and dual fan graphics cards available in the market which is large in formfactor that only large cases can hold so if you have small case don’t go for large formfactor card.\n\n
+Again, it needs enough power to handle those graphics cards for different card like high end cards need more hungry power supply about 800W or more. But low end and midrange need only 500W or close to it.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="DUAL-CARD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="The dual or multi card system is called SLI (NVIDIA) or Crossfire (AMD) depending on how many cards you using the name changes like DUAL SLI, TRIPLE SLI, QUAL SLI,2x crossfire,3x crossfire,4x crossfire etc. have 2/3/4 cards working together to get better graphical performance.\n\n
+Problem with multi card system is it is very power hungry and are not optimized for all games that gamers need. My suggestion is to go for single card as much as possible. Rest is for extreme users.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="OVERCLOCK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="Overclocking is just the performance boost over your normal card by regulating the memory clock and increasing the base clock speed to its highest potential possible. For that you need good CPU to handle and OC enabled graphics card."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

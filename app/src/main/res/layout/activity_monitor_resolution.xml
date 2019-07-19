@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080808"
+    tools:context=".MonitorTechnology.MonitorResolution">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#211e1e"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#c97f00"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Resolution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#f7c605"
+                android:textStyle="normal"
+                android:text="When Buying any monitor people should think about the resolution first as the higher the resolution the better display quality you will get but it will get more expensive too. Resolution is measured in width * height pixels that is horizontal and vertical respectively. PPI is the unit of measurement in terms of display sharpness. the more PPI (Pixel Per Inch) the more sharper the display will be There are typically 4 types of display resolution mainly available there are:
+\n\n
+\na) 720p (1280*720)
+\nb) 1080p (1920*1080)
+\nc) 2k (2560*1440p)
+\nd) 4k (3840 *2160) display
+\n\n\n
+720p is rarely used as its not good for content watching, playing games as its not sharp at all. 1080 is the one that is used mostly as it is balanced between it sharp and very good for productivity and doing most of the works as a standard and its quite affordable as well. If you want higher resolution than this get 1440p or 4k depending on your budget but remember higher the pixel the better quality and more expensive too. Those need more CPU and GPU horse power to run modern games at good frame rate. Keep in mind that also.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3f00ac"
+    tools:context=".RamTechnology.RamBasics">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="4dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:elevation="10dp"
+                android:padding="5dp"
+                android:background="#4500d9"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="RAM BASICS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#333333"
+                android:textStyle="normal"
+                android:text="RAM is the short-term memory of your computer. It’s where your computer keeps track of the programs and data you’re using right now. You probably already know that more RAM is better, so maybe you’re looking to install more RAM now.\n\n
+In this article, we explain the different kinds of RAM and what distinguishes them.\n\n
+
+RAM acts as a middle ground between the small, super-fast cache in your CPU and the large, super-slow storage of your hard drive or SSD. It’s used to temporarily store working parts of the operating system and data being actively used by applications. It’s not used for permanent storage.
+If you think of your computer like an office, the hard drive is the filing cabinet in the corner, the RAM is like an entire office workstation, and the CPU cache is like the actual working area where you’re actively work on a document.\n\n
+
+The more RAM you have, the more things you can have quick access to at any one time, just like having a bigger desk which can have more bits of paper on it without becoming messy and unwieldy (and requiring more trips back to the filing cabinet to reorganize).\n
+Unlike an office desk, however, RAM can’t act as permanent storage. Its contents are lost as soon as power is lost, such as when you turn your computer off. Losing power is like wiping the workstation clean.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e15532"
+    tools:context=".GraphicsCardTechnology.GraphicsCardNvidiaOrAmd">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="AMD / NVIDIA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="There are basically two major companies that makes the Graphics cards Nvidia and AMD. It is a big debate which one is better and better suited for you. Two things you have to consider before it, your budget and performance. For long term researching I have seen that the top end graphics cards are made by Nvidia and for better performance with decent budget AMD card give better value to your money. Nvidia is always costs more than AMD equivalent card like Nvidia’s GTX 1060 is more expensive that AMD’s RX  570. Although, Nvidia’s graphics card are little better in terms of regular software update facility and optimization is little bit better on it.\n\n
+The performance difference is not hugely different but the value difference is there. Many people like to buy Nvidia cards as they bring newer technologies and features day by day. And their newer versions of graphics card perform a lot better than older gens. AMD aims to give better performance at lower price that helps a lot of budget gamers choice.\n\n
+Unless you have a preference for a particular company, the best reason to choose one over the other is whether your monitor supports AMD FreeSync or Nvidia G-Sync. Both of these technologies synchronize the refresh rate between the video card and the display to eliminate tearing. If your monitor supports neither technology, then you can go with either GPU brand."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080808"
+    tools:context=".MonitorTechnology.MonitorPanelType">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#211e1e"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#c97f00"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Panel Types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#f7c605"
+                android:textStyle="normal"
+               android:text="There are multiple panel types available in desktop segment and they are targeted for different types of need and quality and budget. Mostly used panels are:\n\n
+
+\n1. TN-LCD(Twisted Nematic)
+\n2. IPS-LCD(In-Plane Switching)
+\n3. OLED(Organic light emitting Diode)\n
+
+\n\nTN-LCD are cheap in price and quality. But in modern monitors you will not see this often. The mostly used panel is IPS-LCD which offer superior display quality and great 170 degree plus viewing angles and the color accuracy is great on IPS display. Its quite popular across multiple purpose use and in affordable budget it comes with.
+
+\n\nOLED display are so expensive that it is not used at all. The main purpose of OLED display is that it offers extremely well viewing angles and great contrast ratio and very vivid and punchy color reproduction. Movie watching, playing games is a great joy in this type of display.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

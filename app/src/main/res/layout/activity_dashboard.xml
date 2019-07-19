@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+
+    <TextView
+        android:id="@+id/textview_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="186dp"
+        android:layout_marginEnd="88dp"
+        android:background="#212121"
+        android:padding="8dp"
+        android:text="Share"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="176dp"
+        android:layout_marginEnd="24dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/fab_btn_three" />
+
+    <TextView
+        android:id="@+id/textview_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="116dp"
+        android:layout_marginEnd="88dp"
+        android:background="#212121"
+        android:padding="8dp"
+        android:text="Email"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="106dp"
+        android:layout_marginEnd="24dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/fab_btn_two" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="visible"
+        app:backgroundTint="#71FF77"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/fab_btn_one"
+        />
+
+
+    <ScrollView
+        android:background="#292929"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:id="@+id/imageSliderDashBoard"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="top"/>
+
+
+
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:textIsSelectable="true"
+                android:textAllCaps="false"
+                android:text="Categories"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/mainSmartphoneCardViewId"
+                    android:layout_margin="5dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="8dp"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:background="#00BCD4"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+
+                                android:src="@drawable/smartphone_dashboard"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp" />
+
+                            <ImageView
+                                android:src="@drawable/arrow_forward_card_view_white"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:textSize="20sp"
+                            android:textColor="#444444"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:text="Smartphone"
+                            android:background="@drawable/bg_card_footer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_marginTop="20dp"/>
+
+                    </LinearLayout>
+
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/mainLaptopCardViewId"
+                    android:layout_margin="5dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="8dp"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:background="#00BCD4"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+
+                                android:src="@drawable/laptop_dashboard"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp" />
+
+                            <ImageView
+                                android:src="@drawable/arrow_forward_card_view_white"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:textSize="20sp"
+                            android:textColor="#444444"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:text="Laptop"
+                            android:background="@drawable/bg_card_footer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_marginTop="20dp"/>
+
+                    </LinearLayout>
+
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/mainDesktopCardViewId"
+                    android:layout_margin="5dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="8dp"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:background="#00BCD4"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+
+                                android:src="@drawable/desktop_dashboard"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp" />
+
+                            <ImageView
+                                android:src="@drawable/arrow_forward_card_view_white"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:textSize="20sp"
+                            android:textColor="#444444"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:text="Desktop"
+                            android:background="@drawable/bg_card_footer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_marginTop="20dp"/>
+
+                    </LinearLayout>
+
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/mainTVCardViewId"
+                    android:layout_margin="5dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="8dp"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:background="#00BCD4"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+
+                                android:src="@drawable/tv_dashboard"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp" />
+
+                            <ImageView
+                                android:src="@drawable/arrow_forward_card_view_white"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:textSize="20sp"
+                            android:textColor="#444444"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:text="TV"
+                            android:background="@drawable/bg_card_footer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_marginTop="20dp"/>
+
+                    </LinearLayout>
+
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:textIsSelectable="true"
+                android:textAllCaps="false"
+                android:text="Videos"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/youtubeExpertCardViewId"
+                    android:elevation="6dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:layout_width="350dp"
+                    android:layout_height="140dp">
+
+                    <LinearLayout
+                        android:background="@drawable/card_main_background"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/youtube_expert_channel_icon" />
+
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/youtube_videos_icon" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:textSize="20sp"
+                            android:textColor="#444444"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:text="Expert Videos"
+                            android:background="@drawable/bg_card_footer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_marginTop="2dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/myYoutubeSupportId"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:layout_width="350dp"
+                    android:layout_height="140dp">
+
+                    <LinearLayout
+                        android:background="@drawable/card_main_background"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_margin="10dp"
+                                android:src="@drawable/youtube_expert_channel_icon"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+
+
+
+                            <ImageView
+                                android:src="@drawable/youtube_videos_icon"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:textSize="20sp"
+                            android:textColor="#444444"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:text="My Videos"
+                            android:background="@drawable/bg_card_footer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_marginTop="2dp"/>
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:textIsSelectable="true"
+                android:textAllCaps="false"
+                android:text=" See Latest Posts "
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+            <HorizontalScrollView
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/go_to_database_dashboard"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="6dp"
+                        android:elevation="8dp"
+                        android:layout_width="200dp"
+                        android:layout_height="120dp">
+
+                        <LinearLayout
+                            android:background="@drawable/card_main_background"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:src="@drawable/smartphone_dashboard"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp" />
+
+                                <ImageView
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/arrow_forward_card_view_white"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_gravity="bottom"
+                                android:textSize="18sp"
+                                android:textColor="#444444"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:text="Smartphone post"
+                                android:background="@drawable/bg_card_footer"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:layout_marginTop="20dp"/>
+
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="2dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="6dp"
+                        android:elevation="8dp"
+                        android:layout_width="200dp"
+                        android:layout_height="120dp">
+
+                        <LinearLayout
+                            android:background="@drawable/card_main_background"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:src="@drawable/desktop_dashboard"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp" />
+
+                                <ImageView
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/arrow_forward_card_view_white"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_gravity="bottom"
+                                android:textSize="18sp"
+                                android:textColor="#444444"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:text="Desktop post"
+                                android:background="@drawable/bg_card_footer"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:layout_marginTop="20dp"/>
+
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="2dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="6dp"
+                        android:elevation="8dp"
+                        android:layout_width="200dp"
+                        android:layout_height="120dp">
+
+                        <LinearLayout
+                            android:background="@drawable/card_main_background"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:src="@drawable/laptop_dashboard"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp" />
+
+                                <ImageView
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/arrow_forward_card_view_white"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_gravity="bottom"
+                                android:textSize="18sp"
+                                android:textColor="#444444"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:text="Laptop post"
+                                android:background="@drawable/bg_card_footer"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:layout_marginTop="20dp"/>
+
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="2dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="6dp"
+                        android:elevation="8dp"
+                        android:layout_width="200dp"
+                        android:layout_height="120dp">
+
+                        <LinearLayout
+                            android:background="@drawable/card_main_background"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:src="@drawable/tv_dashboard"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp" />
+
+                                <ImageView
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/arrow_forward_card_view_white"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_gravity="bottom"
+                                android:textSize="18sp"
+                                android:textColor="#444444"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:text="TV post"
+                                android:background="@drawable/bg_card_footer"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:layout_marginTop="20dp"/>
+
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:textIsSelectable="true"
+                android:textAllCaps="false"
+                android:text="Others"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/originalVsDuplicateCardId"
+                    android:elevation="6dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:layout_width="350dp"
+                    android:layout_height="140dp">
+
+                    <LinearLayout
+                        android:background="@drawable/card_main_background"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_margin="10dp"
+                                android:src="@drawable/original_vs_duplicate_logo"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+
+
+
+                            <ImageView
+                                android:src="@drawable/youtube_videos_icon"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:textSize="18sp"
+                            android:textColor="#444444"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:text="Original vs Duplicate"
+                            android:background="@drawable/bg_card_footer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_marginTop="2dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/currencyConvertCardId"
+                    android:layout_marginTop="10dp"
+                    android:elevation="6dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:layout_width="350dp"
+                    android:layout_height="140dp">
+
+                    <LinearLayout
+                        android:background="@drawable/card_main_background"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_margin="10dp"
+                                android:src="@drawable/currency_converter_logo"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+
+
+
+                            <ImageView
+                                android:src="@drawable/youtube_videos_icon"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:textSize="20sp"
+                            android:textColor="#444444"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:text="Convert Currency"
+                            android:background="@drawable/bg_card_footer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_marginTop="2dp"/>
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

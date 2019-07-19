@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3f00ac"
+    tools:context=".RamTechnology.RamLatency">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="4dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:elevation="10dp"
+                android:padding="5dp"
+                android:background="#4500d9"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="RAM LATENCY !"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#333333"
+                android:textStyle="normal"
+                android:text="You’ll sometimes see RAM modules with a series of numbers like 9-10-9-27, which are referred to as timings. This is a measurement of the performance of the RAM in nanoseconds. The lower the numbers, the quicker the RAM can react to requests.\n\n
+The first number (9, in the example) is the CAS latency, or the number of clock cycles it takes for data requested by the memory controller to become available to a data pin.\n\n
+You’ll notice that DDR3 RAM generally has higher timing numbers than DDR2, and DDR4 RAM generally has higher timing numbers than DDR3 — yet DDR4 is faster than DDR3 which is faster than DDR2. Weird, right?\n\n
+We can explain this using DDR3 and DDR4 as examples. The lowest speed DDR3 RAM runs at 533 MHz, which means a clock cycle of 1/533000000, or 1.87 ns. With a CAS latency of 7 cycles, total latency is 1.87 x 7 = 13.09 ns.\n\n
+Whereas the lowest speed DDR4 RAM runs at 800 MHz, which means a clock cycle of 1/800000000, or 1.25 ns. Even if it has a higher CAS of 9 cycles, total latency is 1.25 x 9 = 11.25 ns. That’s why it’s faster!\n\n
+But for most people, capacity trumps clock speed and latency every time. You’ll get much more benefit from 16 GB of DDR4-1600 RAM than you’ll get from 8 GB of DDR4-2400 RAM. In most cases, timing and latency should be the last points of consideration.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

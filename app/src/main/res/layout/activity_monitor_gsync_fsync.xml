@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080808"
+    tools:context=".MonitorTechnology.MonitorGsyncFsync">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#211e1e"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#c97f00"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="G-Sync/FreeSync"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#f7c605"
+                android:textStyle="normal"
+                android:text="If you’ve ever experienced screen tearing in a PC game, you know how annoying it can be. An otherwise perfectly rendered title totally ruined by gross horizontal lines and stuttering. You can turn on V-Sync, but if you don’t have a high-end system, it can put a huge dent in your performance.\n\n
+Both Nvidia and AMD have stepped up to try and solve the issue while preserving framerates, and both manufacturers have turned to adaptive refresh technology for the solution. But let’s break it down to show which is a better option for you.\n\n
+
+  G-Sync and FreeSync are both designed to smooth out gameplay, reduce input lag, and prevent screen tearing. They have different methods for accomplishing these goals, but what really sets them apart is that one is closely guarded, and the other is openly shared. \n\nWhile Nvidia’s G-Sync is enabled by including a chip in the construction of the monitor, FreeSync uses the video card’s functionality to manage the refresh rate of the monitor using the Adaptive Sync standard built into the DisplayPort standard. The result is a difference in performance.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

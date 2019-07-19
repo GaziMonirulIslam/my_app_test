@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080808"
+    tools:context=".MonitorTechnology.MonitorScreenSize">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#211e1e"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#c97f00"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Screen Size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#f7c605"
+                android:textStyle="normal"
+                android:text="
+One of the most important things in buying any monitor is the Screen Size and according to it the price differs a lot and you need is also a factor. There is relationship between resolution and screen size. You must have to choose screen size matching with resolution. Suppose you take a monitor with 1080p display and its size is 40 inch then definitely it will look so bad and less sharp and pixelated. As a monitor you always have to choose it according to resolution matching. There are mainly 4 category of screen sizes:\n\n
+
+\n1. Below 21.5 inch(720p)
+\n2. 21.5 -24 inch (1080p)
+\n3. Up to 32 inches (2k,4k,1080p)
+\n4. 34 inches and over (Cinema 4k, UHD)\n
+
+\n\nBelow 21.5 inch is normally not full HD (1080p) so price is lot lower like around $100 or less.
+
+\n\nA display with 21.5 inch to 24 inch is quite multi-purpose monitor and affordable as well around $150-$250 depending on size, brands, quality, feature.
+
+\n\nA display up to 32 inch is quite expensive and normally used in professional work and for good content watching and editing and gaming purposes. They priced around $250-$500.
+
+
+\n\nA display with 34 inch and over is for extreme users who want the best of the best quality and resolution they buy it around $1000 or more.
+
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

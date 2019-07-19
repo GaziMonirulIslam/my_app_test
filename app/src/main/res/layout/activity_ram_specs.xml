@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3f00ac"
+    tools:context=".RamTechnology.RamSpecs">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="4dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:elevation="10dp"
+                android:padding="5dp"
+                android:background="#4500d9"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="RAM SPECS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#333333"
+                android:textStyle="normal"
+                android:text="You may have seen RAM referred to by two sets of numbers, like DDR3-1600 and PC3-12800. These both reference and allude to the generation of the RAM and its transfer speed. The number after DDR/PC and before the hyphen refers to the generation: DDR2 is PC2, DDR3 is PC3, DDR4 is PC4.\n\n
+The number paired after DDR refers to the number of MegaTransfers (MT) per second. (For example, DDR3-1600 RAM operates at 1600 MT/s). The number paired after PC refers to the theoretical bandwidth in megabytes per second. (For example, PC3-12800 operates at 12800 MB/s).\n\n
+It’s possible to overclock RAM, just like you can overclock a CPU or graphics card, to increase the RAM’s bandwidth. Manufacturers sometimes sell RAM that’s already overclocked, but you can overclock it yourself. Just make sure that your motherboard supports the higher clock speed!
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

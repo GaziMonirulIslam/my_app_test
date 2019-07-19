@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e15532"
+    tools:context=".GraphicsCardTechnology.GraphicsCardBasics">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="VR SUPPORT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="With the resurgence in popularity of high-quality VR tech, it’s clear that virtual reality is here to stay.\n
+Whether you have experienced a VR headset for yourself, and crave its full immersion into a game world, or are just dipping your toes in the realistic waters of Skyrim, your graphics card is going to be the critical component in your VR build.\n\n
+There are as many graphic cards on the market as there are VR titles to choose from, and we’ve put together a user-friendly guide to help break down which one will be best for you.\n\n
+We’ve sorted the options into three simple categories that will help you narrow down which video card is the best for VR.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="Entry Level VR – AMD RX 580"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="AMD’s follow-up to the still-popular RX 480, the RX 580, is a powerhouse budget CPU that will handle most VR titles on respectable settings without any noticeable frame rate lag.\n
+Based largely on the previous RX 480’s Polaris architecture, the RX 580 has some clear advantages over its predecessor.\n
+AMD states the only major change made to the RX 580 is in the unit’s silicon to allow for higher clock speeds.\n
+The RX 580’s base clock speed is 1267MHz, with a boost up to 1340MHz; in practice, however, the RX 580 can run smoothly and without heating issues up to around 1400MHz.
+That’s a significant improvement over the already-strong performance of the RX 480.\n\n
+On paper it’s very close to the mid-range option on our list, the NVIDIA GeForce GTX 1060, and is a stellar choice for an entry-level VR rig.
+It’s just about the least expensive card that will pass the recommended specs for today’s VR headsets.\n
+It comes with AMD FreeSync, and will handle high refresh rate HD gaming with ease.\n
+AMD offers this card in both 4GB and 8GB memory setups, but for first-time VR adopters, the 4GB will do just fine.\n\n
+Where the RX 580 begins to fall behind is in resolutions above 1080p, making it a less-versatile card than the GeForce 1060, against which it was aimed to compete.
+It starts to dip below the 60 FPS sweet spot when running in QHD (1440p) or higher resolutions.\n
+Despite this shortcoming, the RX 580 is a solid choice for VR gaming on a budget.\n
+It’s less expensive than the 1060, and when considering just VR, performs at a similar level.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="Mid-Range VR – NVIDIA GeForce GTX 1060"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="Listed as a recommended card for the Oculus Rift, the GeForce GTX 1060 is a great middle ground for those looking to get into VR.\n
+Not only will it handle VR gaming with ease, it consumes much less power than the above-listed RX 580.\n
+The downside here is that it costs a little more, though their performance is still similar, but in general the GTX 1060 performs better than the RX 580.\n
+As an added bonus, it’s G-Sync ready, a monitor technology that is quickly becoming popular, and that offers high-definition panels to help sync refresh rates to FPS for a smoother gaming experience.\n
+Sold in both 3GB and 6GB configurations, either one will suffice for VR gaming.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="Upper Range VR– NVIDIA GeForce GTX 1070"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="A versatile card that can handle both high performance wide resolution gaming and VR, the GTX 1070 is just above the price that would put it in the mid-range category.\n\n
+Boasting impressive specs without costing a new mortgage on your home, this card includes a moderate amount of future-proofing, as gaming trends towards the QHD resolution and beyond. It can handle 4K gaming, though it won’t run 60 FPS on maximum settings in that resolution.\n\n
+Overall it’s a well-rounded, high value card that will run VR applications beautifully and without any stuttering.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="High End VR Gaming – NVIDIA GeForce GTX 1080 Ti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="The most expensive card on this list by far, the GTX 1080 Ti is at the top of the list for gamer-focused graphics cards.\n\n
+Boasting 11GB of dedicated VRAM, Pascal architecture, and significant overclocking capabilities, the GTX 1080 Ti is the reigning king of graphical gaming fidelity. Not only will the GTX 1080 Ti flawlessly handle VR gaming even on the highest settings, it’s one of the only cards currently on the market that can boast a smooth 60 FPS for 4K gaming on maximum settings for most titles.\n\n
+
+It’s a gaming monster, and if you have the cash to spend, it will provide you both with a range of gaming options and with years of future-proofing for your system.
+
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

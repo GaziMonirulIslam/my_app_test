@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e15532"
+    tools:context=".GraphicsCardTechnology.GraphicsCardRayTracing">
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:backgroundTint="#f1f1f1"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="2dp"
+            app:cardElevation="8dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:background="#df2201"
+                android:layout_margin="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#f5f5f5"
+                android:textStyle="bold"
+                android:text="Ray-Tracing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="50dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="17sp"
+                android:textColor="#434343"
+                android:textStyle="normal"
+                android:text="Nvidia announced its new RTX 2070, 2080, and 2080 Ti, and the latter two are out in the wild. These video cards offer an across-the-board performance leap above the GTX 1070, 1080, and 1080 Ti, but there’s more to it than cranking up the specifications. Nvidia has leapt from the GTX to RTX brand name for a reason.\n\n
+Ray tracing is that reason. Ray tracing creates an image by tracing the path of simulated light. Or, rather, millions of simulated lights. The light bounces of objects as it moves and interacts with their properties. If it bounces from a glossy green surface, for instance, its hue may change.\n
+That’s essentially how light works in real life. A particle of light springs from its point of origin and travels along until it interacts with an object, at which point its path is determined by that object’s properties. It might be absorbed by a dense, dark object, or almost entirely reflected by a mirror.\n
+Ray tracing’s fundamental similarity to real life makes it an extremely realistic 3D rendering technique. There’s just one problem: It’s hard to simulate. The world we see every day is made visible by millions upon millions of light particles bouncing about at, well, the speed of light. Simulating that isn’t easy, which is why modern real-time 3D graphics – including those used in 3D games – rarely use this technique. It’s typically reserved for movies and other pre-rendered graphics, where it’s possible to spend hours rendering just a single frame. Until now, that is.\n\n
+Graphics technology has improved, however, and Nvidia’s latest RTX 2000 series cards are the first to include hardware specifically built for ray tracing. The new Turning architecture uses the company’s new Tensor Cores to handle the technique in real time. Nvidia had a few specific demos to show at its press conference including Battlefield V, Shadow of the Tomb Raider, and Metro Exodus.\n\n
+Advantage of ray tracing is that you get high refined shadows, extremely accurate and excellent contrast. But for that look you need tons of hardware power and you will be needing high end graphics card Nvidia’s RTX 2070 or RTX 2080 or RTX 20180ti graphics card to handle that.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
